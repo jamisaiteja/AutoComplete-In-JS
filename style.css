@@ -6,14 +6,26 @@
 }
 
 body{
-    background-color: #262a2f;
+    background-color: #272323;
     color:#333;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color:#9f9898;
+    padding: 20px;
+}
 .search-box{
     width: 600px;
     background: #fff;
-    margin: 200px auto 0;
+    /* margin: 200px auto 0; */
     border-radius: 5px;
 }
 
